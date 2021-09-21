@@ -5,7 +5,7 @@ def decomposer(secondes):
     annees = secondes/60/60/24/365
 
     # TODO: Assigner à la variable "semaines" le nombre de semaines restantes
-    semaines = (annees - int(annees)) * 52
+    semaines = (annees - int(annees)) * (52 + 1/7)
 
     # TODO: Assigner à la variable "jours" le nombre de jours restants
     jours = (semaines - int(semaines)) * 7
